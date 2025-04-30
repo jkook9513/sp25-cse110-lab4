@@ -1,0 +1,2 @@
+1. The problem with the code was the `num1` and `num2` were inputted as strings, so result was a concatenation of `num1` and `num2` rather than the sum.
+2. I would fix it by using the `parseInt()` function to ensure that `num1` and `num2` are read as integers.
